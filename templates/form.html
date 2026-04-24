@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collecte de données INF232</title>
+</head>
+<body>
+
+<h2>Application de collecte de données</h2>
+
+<form action="/submit" method="POST">
+
+    <label>Nom :</label>
+    <input type="text" name="nom" required>
+    <br><br>
+
+    <label>Âge :</label>
+    <input type="number" name="age" required>
+    <br><br>
+
+    <label>Sexe :</label>
+    <select name="sexe">
+        <option value="M">Masculin</option>
+        <option value="F">Féminin</option>
+    </select>
+    <br><br>
+
+    <label>Ville :</label>
+    <input type="text" name="ville">
+    <br><br>
+
+    <label>Secteur d’activité :</label>
+    <input type="text" name="secteur">
+    <br><br>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>
